@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+body{
+    background-color: #002a3c;
+    color:  rgb(254, 254, 254);
+    font-family: 'Righteous', cursive;
+    font-size: 1.2rem;
+}
+.game-container{
+    height:400px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    position: relative;
+    top:5rem;
+}
+h1{
+    text-align:center;
+}
+
+table{
+    border-collapse: collapse;
+    color: #002a3c;
+    text-align: center;
+    font-size: 2rem;
+}
+td{
+    background-color: rgb(254, 254, 254);
+    width: 65px;
+    height: 65px;
+    border: 2px solid #002a3c;
+    cursor: pointer;
+}
+.remove{
+    display:none;
+}
+.btn{
+  padding: 0.7rem;
+  font-family: inherit;
+  font-size: 1rem;
+  color:#33a1d0;
+  border-radius: 5px;
+  border-style: none;
+  cursor: pointer;
+}
+.btn:hover{
+    background-color: #33a1d0;
+    color: rgb(254, 254, 254);
+}
+#O,#X{
+    width: 2.5rem;
+}
+.empty:hover{
+    background-color: #33a1d0;
+}
+
+.transition{
+    transition-delay: 2s;
+}
